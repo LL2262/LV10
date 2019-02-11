@@ -1,3 +1,14 @@
+.fondo {
+	background: url('img/fondo.jpg') no-repeat fixed center;
+	background-size: cover;
+}
+
+.parallax-container {
+		min-height: 380px;
+		line-height: 0;
+		height: auto;
+}
+
 .item-zoom {
 	position: relative;
 	overflow: hidden;
@@ -14,11 +25,11 @@
 	transform: scale(1.1);
 }
 
-	.parallax-container .section {
-	  width: 100%;
-	}
+.parallax-container .section {
+	width: 100%;
+}
   
-  @media only screen and (max-width : 992px) {
+@media only screen and (max-width : 992px) {
 	.parallax-container .section {
 	  position: absolute;
 	  top: 40%;
@@ -26,21 +37,28 @@
 	#index-banner .section {
 	  top: 10%;
 	}
-  }
+}
   
-  @media only screen and (max-width : 600px) {
+@media only screen and (max-width : 600px) {
 	#index-banner .section {
 	  top: 0;
 	}
-  }
+}
   
-  .icon-block {
+.icon-block {
 	padding: 0 15px;
-  }
-  .icon-block .material-icons {
+}
+.icon-block .material-icons {
 	font-size: inherit;
-  }
+}
   
-  footer.page-footer {
+footer.page-footer {
 	margin: 0;
-  }
+}
+
+.login{
+	opacity: 0.92;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.5);
+}
+
